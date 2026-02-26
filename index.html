@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body class="font-sans font-bold text-white md:px-20 
+bg-gradient-to-br from-black via-gray-800 to-black min-h-screen ">
+    <p class="p-10 md:p-10 md:text-4xl px-64 text-4xl text-purple-900 font-bold hover:text-white transition duration-1000 "> PortPolio </p>
+    <ul class="flex justify-center py-4  font-bold ">
+        <li class="inline-block px-6 md:px-10 mr-4"><a href="#about" class="md:text-xl text-gray-300 hover:text-purple-900">About Me</a></li>
+        <li class="inline-block px-8 md:px-10 mr-4"><a href="#skills" class=" md:text-xl text-white hover:text-purple-900">Skills</a></li>
+        <li class="inline-block px-8 md:px-10 mr-4 "><a href="#projects" class="md:text-xl text-white hover:text-purple-900">Projects</a></li>
+        <li class="inline-block px-8 md:px-10 mr-4 "><a href="#education" class="md:text-xl text-white hover:text-purple-900">Education</a></li>
+        <li class="inline-block px-6 md:px-10 mr-4 "><a href="#contact" class="md:text-xl text-white hover:text-purple-900">Contact</a></li>
+    </ul>
+    <section id="about" class="py-8">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="flex flex-col md:flex-row items-center justify-between gap-12 ">
+            <div class="w-full md:w-1/2 text-center md:text-left p-4 ">
+                <h1 class="text-6xl text-white transition duration-1000 hover:text-purple-900 font-bold font-sans p-4 ">HI , Iam </h1>
+                <h1 class="text-6xl text-white font-bold font-sans p-4 ">KEERTI KIRAN SHET</h1>
+                <h1 class="text-4xl text-purple-900 font-bold font-sans  transition duration-1000 animate-bounce p-4 hover:underline">Aspiring Full Stack Developer</h1>
+                <p class="text-gray-500 text-center md:text-left text-2xl font-bold p-4 ">I am a first-year engineering student with a strong interest in web development 
+            and a goal of becoming a Full Stack Developer. I have started my journey with
+            front-end technologies like HTML, CSS, JavaScript, and Tailwind CSS, building a solid foundation in web development.
+            I am passionate about learning and continuously improving my skills
+            through hands-on projects.
+                </p>
+            </div>
+
+            <div class="w-full md:w-1/2 flex justify-center md:justify-end mt-6 md:mt-0 order-2 md:order-2">
+                <img src="./itsme2.png" alt="Profile Picture"  class="animate-pulse w-72 md:w-72 lg:w-96 rounded-xl border-2 border-purple-700">
+            </div>
+           
+        </div>
+        
+    </section>
+
+    <div class=" py-8 flex justify-center">
+        <a href="./Resume.pdf" target="_blank" class=" inline-block md: mt-6 bg-gradient-to-br from-black via-purple-900 to-black hover:bg-purple-700 text-2xl text-white font-bold px-6 py-2 rounded-xl">Check Resume</a>
+    </div> 
+      
+
+    <section  id="skills" class="py-16">     
+        <h2 class=" flex items-center justify-center text-4xl text-white font-bold hover:text-gray-500 ">Skills</h2>
+        <h1 class="text-center text-2xl text-gray-500 p-4">I have hands-on experience in building responsive websites using HTML, CSS, Tailwind CSS, and JavaScript. I also use Git and GitHub for version control and project management</h1>
+         <ul class="bg-gradient-to-br from-black via-gray-800 to-black  text-gray-500 text-center text-2xl font-bold py-4 border-2 border-purple-900  rounded-2xl w-1/4 mx-auto mt-6">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Tailwind CSS</li>
+        </ul>
+    </section>
+
+    <section  id="projects" class="py-8">
+        <h2 class=" flex items-center justify-center text-4xl text-white font-bold hover:text-gray-500 ">Projects</h2>
+          <h1 class="text-center text-2xl text-gray-500 p-4">I have built multiple mini projects to strengthen my understanding of JavaScript and frontend development. Some of my featured projects are listed below.</h1>
+           <div class="bg-gradient-to-br from-black via-gray-800 to-blacktext-gray-500 text-center text-2xl font-bold py-4 border-2 border-purple-900  rounded-2xl mx-auto mt-8 w-3/4 p-4">
+                <h3 class="text-3xl text-purple-900 p-4 ">Alarm Clock</h3>
+                <p class="text-2xl text-gray-500 p-2 ">A digital alarm clock application built using JavaScript that allows users to 
+                set a specific time for an alarm. The application plays a sound when the selected
+                time matches the current time.</p>
+                <p class="text-2xl text-purple-900 p-4">Technologies Used:</p>
+                <p class="text-2xl text-gray-500 p-2">HTML, CSS, JavaScript</p>
+                <br>
+                <a href="https://github.com/KEERTI1010/JAVA_SCRIPT/tree/main/PRO_06" class="text-purple-900 hover:text-purple-700 p-4">>>View Project on GitHub</a>
+           </div> 
+
+           <div class="bg-gradient-to-br from-black via-gray-800 to-blacktext-gray-500 text-center text-2xl font-bold py-4 border-2 border-purple-900  rounded-2xl mx-auto mt-8 w-3/4 p-4">
+                <h3 class="text-3xl text-purple-900 p-4 ">Background Color Changer</h3>
+                <p class="text-2xl text-gray-500 p-2 "> A simple interactive web application that changes the background color dynamically 
+                when a button is clicked. This project demonstrates DOM manipulation and event handling 
+                in JavaScript.</p>
+                <p class="text-2xl text-purple-900 p-4">Technologies Used:</p>
+                <p class="text-2xl text-gray-500 p-2">HTML, CSS, JavaScript</p>
+                <a href="https://github.com/KEERTI1010/JAVA_SCRIPT/tree/main/PRO_05" class="text-purple-900 hover:text-purple-700 p-4">>>View Project on GitHub</a>
+            </div>
+
+           <div class="bg-gradient-to-br from-black via-gray-800 to-black text-gray-500 text-center text-2xl font-bold py-4 border-2 border-purple-900  rounded-2xl mx-auto mt-8 w-3/4 p-4">
+               <h3 class="text-3xl text-purple-900 p-4 ">Number Guessing Game</h3>
+                <p class="text-2xl text-gray-500 p-2 ">A number guessing game where users attempt to guess a randomly generated number within a 
+                limited number of attempts. The project uses JavaScript logic and conditional statements 
+                to provide feedback.</p>
+                <p class="text-2xl text-purple-900 p-4">Technologies Used:</p>
+                <p class="text-2xl text-gray-500 p-2">HTML, CSS, JavaScript</p>
+                <a href="https://github.com/KEERTI1010/JAVA_SCRIPT/tree/main/PRO_04"class="text-purple-900 hover:text-purple-700 p-4">>>View Project on GitHub</a>
+
+        </div>
+    </section>
+
+    <section>
+        <h2 id="education" class=" flex items-center justify-center text-4xl text-white font-bold hover:text-gray-500 py-8">Education</h2>
+        <div class="bg-gradient-to-br from-black via-gray-800 to-black text-gray-500 text-center text-xl md:text-2xl font-bold py-4 border-2 border-purple-900  rounded-2xl mx-auto mt-8 w-3/4 p-4">
+            <h3 class="text-3xl text-purple-900 p-4 ">Bachelor of Engineering in Computer Science and Engineering</h3>
+            <p class="text-2xl text-gray-500 p-2 ">Currently pursuing a Bachelor's degree in Computer Science and Engineering at</p>
+            <p class="text-purple-900 text-xl transition duration-1000 hover:underline">Alva's Institution Of Engineering And Technology , Moodbidri , Manglore </p> 
+            <p class="" >2024 - Present ( Expected Graduation : 2029 )</p>
+        </div>
+    </section>
+
+    <section id="contact" class="py-8">
+        <h1 class="flex items-center justify-center text-4xl text-white font-bold p-4 inline-block hover:animate-bounce hover:text-gray-500">Contact</h1>
+        <p class="flex items-center justify-center text-xl md:text-2xl text-gray-500 p-2 hover:text-purple-900 p-2">Email:shetkeerti6@gmail.com</p>
+        <p class="flex items-center justify-center text-xl md:text-2xl text-gray-500 p-2 hover:underline hover:text-purple-900 p-2">LinkedIn :- <a href=https://linkedin.com/in/keerti-k-shet-417b6b389> https://linkedin.com/in/keerti-k-shet-417b6b389</a></p>
+        <p class="flex items-center justify-center text-xl md:text-2xl text-gray-500 p-2 hover:underline hover:text-purple-900 p-2">Github :-<a href=https://github.com/KEERTI1010> https://github.com/KEERTI1010</a></p>
+    </section>
+
+    <footer  class="py-8">
+        <p  class=" flex items-center justify-center text-2xl text-white font-bold hover:text-gray-500 ">&copy; 2024 Keerti Kiran Shet. All rights reserved.</p>
+    </footer>
+    
+</body>
+</html>
